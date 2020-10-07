@@ -1,0 +1,167 @@
+/*  clearfix */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* -------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+}
+/* Header navigation */
+.header {
+    background-color: rgba(128, 128, 128, 0.335);
+}
+
+.about {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.about-left {
+    padding-top: 10px;
+}
+
+
+.register-default {
+    color: white;
+    display: inline-block;
+
+    padding: 10px 32px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    background-color: rgb(212, 0, 28);
+    border: 2px solid rgb(212, 0, 28);
+
+
+}
+
+.type-list {
+    margin-left: 0px;
+}
+
+.type-list li {
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+.type-list li:hover {
+    background-color: rgba(128, 128, 128, 0.335);
+}
+/*  ---------------   */
+
+/* --- Car information Panels */
+
+.info-parent {
+    padding: 0 50px 0 0;
+}
+
+.card-image {
+    padding-left: 15px;
+}
+
+.my-card {
+    border: 1px solid gray;
+    background-color: rgb(236, 236, 236);
+    margin: 20px 0 20px 0;
+}
+
+
+.my-card-borderless {
+    border: none;
+    background-color: rgb(236, 236, 236);
+    margin: 20px 0 20px 0;
+}
+
+.filter-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.335);
+}
+
+
+.filter-list {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+}
+
+.filter-list>li {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.button-default {
+
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(212, 0, 28);
+    border: 2px solid rgb(212, 0, 28);
+}
+
+
+
+.button-default:hover {
+    background-color: rgb(212, 0, 28);
+    color: white;
+}
+
+.button-default:focus {
+    outline: none;
+}
+
+.info-box {
+    border: 1px solid gray;
+    margin: 0px;
+}
+.info-box-glyph{
+    position: absolute;
+    left: 85px;
+    top: 10px;
+}
+/* ------------------------------  */
+
+/* -----Element modifiers ------ */
+
+.info-box-amount-left{
+    position: relative;
+}
+
+.info-box-amount-right{
+    padding-left: 30px; left: 20px
+}
+
+.description-list-style{
+    list-style-type: none;
+}
+
+.description-list-icon{
+    right: 10px;
+}
+.margin-fix {
+    margin: auto;
+}

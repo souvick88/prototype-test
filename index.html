@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class=" row pt-2 d-flex justify-content-between ">
+                <ul class=" about about-left pl-0">
+                    <li class="about ml-3 mr-3">ABOUT</li>
+                    <li class="about ml-3 mr-3">CONTACT</li>
+                    <li class="about ml-3 mr-3">FAQs</li>
+                </ul>
+                <ul class="about  pl-0">
+                    <li class="about  ml-3 mr-3">MANAGE BOOKING</li>
+                    <li class="about  ml-3 mr-3">SIGN IN</li>
+                    <li class="about  ml-3 mr-3">
+                        <button class="register-default">
+                            REGISTER</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="row pt-4 pb-4 mr-3 ml-3 ">
+                <div class="col-4 selection">
+                    <label class="w-100 mb-0" for="cars">Pickup:</label>
+                    <select class="w-100 p-2" name="cars" id="cars">
+                        <option value="volvo">Munich, Germany</option>
+                        <option value="saab">opt 2</option>
+                    </select>
+                </div>
+                <div class="col-4 selection">
+                    <label for="cars" class="w-100 mb-0">Drop off:</label>
+                    <select name="cars" id="cars" class="w-100 p-2">
+                        <option value="volvo">Cologne, Germany</option>
+                        <option value="saab">opt 2</option>
+                    </select>
+                </div>
+                <div class="col-2 selection">
+                    <label for="cars" class="w-100 mb-0">duration:</label>
+                    <select name="cars" class="w-100 p-2" id="cars">
+                        <option value="volvo">3 days</option>
+                        <option value="saab">opt 2</option>
+                    </select>
+                </div>
+                <div class="col-2  pt-4">
+                    <a href="">REFINE SEARCH</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-fix mt-5 ">
+            <div class="col-3 pl-0 ">
+                <h2 class="d-inline">Filters </h2>
+                <div class="d-inline-block pl-3">
+
+                    <h3 class="filter-number">2</h3>
+                </div>
+            </div>
+            <div class="col-9 ">
+                <div class="row">
+
+                    <h3 class="col-auto mr-auto">We found 179 Cars at Munich airport</h3>
+                    <div class=" col-auto pr-0">
+
+                        <label for="cars" class="d-inline">Sort by:</label>
+
+                        <select class=" p-2 " name="cars" id="cars">
+                            <option value="volvo">Price:high to low</option>
+                            <option value="saab">item 1</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row margin-fix">
+            <div class="col-3 border-right ">
+                <div class="filter-list mt-2 pl-3 border-bottom">
+                    <h3>Vehicle type</h3>
+
+                    <ul class="type-list pl-0">
+                        <li>Economy</li>
+                        <li>Compact</li>
+                        <li>Economy</li>
+                        <li>Compact</li>
+                        <li>Economy</li>
+                        <li>Compact</li>
+                        <li>Economy</li>
+                        <li>Compact</li>
+                    </ul>
+                </div>
+                <div class="filter-list mt-2 pl-3">
+                    <h3>Price range</h3>
+
+                    <ul class="type-list pl-0">
+                        <li>$50 - 100</li>
+                        <li>$100 - 150</li>
+                        <li>$200 - 550</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9  pr-0">
+                <h3 class="mt-2"> Featured vehicles </h3>
+
+
+                <div class="my-card ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4 text-center ">
+                            <img class="card-image w-100" src="car.jpg
+
+                            " alt="Avatar">
+                        </div>
+                        <div class="col-4 pl-3 pt-4">
+                            <h4><b>Mercedes-Benz E200/220
+                                    or similar</b></h4>
+                            <p>Sedan | PDAR</p>
+                            <p>This package includes</p>
+                            <ul class="description-list-style">
+                                <li> <i class="glyphicon glyphicon-chevron-right description-list-icon"></i>unlimited
+                                    free kilometers
+                                    incl.
+                                </li>
+                                <li><i class="glyphicon glyphicon-chevron-right description-list-icon"></i>Sat nav incl
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 info-parent ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="row info-box pt-2  ">
+                                        <div class="col-6">
+
+
+                                            <h2 class="mb-0 info-box-amount-left">$36
+
+                                                <i class="glyphicon glyphicon-chevron-right info-box-glyph"></i>
+                                            </h2>
+
+                                            <p>perday</p>
+
+                                        </div>
+                                        <div class="col-6 info-box-amount-right">
+                                            <h2 class="mb-0 ">$136</h2>
+
+                                            <p>perday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center pt-4">
+
+                                    <button class="button-default w-100">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="my-card ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4 text-center ">
+                            <img class="card-image w-100" src="car.jpg
+
+                            " alt="Avatar">
+                        </div>
+                        <div class="col-4 pl-3 pt-4">
+                            <h4><b>Mercedes-Benz E200/220
+                                    or similar</b></h4>
+                            <p>Sedan | PDAR</p>
+                            <p>This package includes</p>
+                            <ul class="description-list-style">
+                                <li> <i class="glyphicon glyphicon-chevron-right description-list-icon"></i>unlimited
+                                    free kilometers
+                                    incl.
+                                </li>
+                                <li><i class="glyphicon glyphicon-chevron-right description-list-icon"></i>Sat nav incl
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 info-parent ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="row info-box pt-2  ">
+                                        <div class="col-6">
+
+
+                                            <h2 class="mb-0 info-box-amount-left">$36
+
+                                                <i class="glyphicon glyphicon-chevron-right info-box-glyph"></i>
+                                            </h2>
+
+                                            <p>perday</p>
+
+                                        </div>
+                                        <div class="col-6 info-box-amount-right">
+                                            <h2 class="mb-0 ">$136</h2>
+
+                                            <p>perday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center pt-4">
+
+                                    <button class="button-default w-100">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="my-card ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4 text-center ">
+                            <img class="card-image w-100" src="car.jpg
+
+                            " alt="Avatar">
+                        </div>
+                        <div class="col-4 pl-3 pt-4">
+                            <h4><b>Mercedes-Benz E200/220
+                                    or similar</b></h4>
+                            <p>Sedan | PDAR</p>
+                            <p>This package includes</p>
+                            <ul class="description-list-style">
+                                <li> <i class="glyphicon glyphicon-chevron-right description-list-icon "></i>unlimited
+                                    free kilometers
+                                    incl.
+                                </li>
+                                <li><i class="glyphicon glyphicon-chevron-right description-list-icon"></i>Sat nav incl
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 info-parent ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="row info-box pt-2  ">
+                                        <div class="col-6">
+
+
+                                            <h2 class="mb-0 info-box-amount-left">$36
+
+                                                <i class="glyphicon glyphicon-chevron-right info-box-glyph"></i>
+                                            </h2>
+
+                                            <p>perday</p>
+
+                                        </div>
+                                        <div class="col-6 info-box-amount-right">
+                                            <h2 class="mb-0 ">$136</h2>
+
+                                            <p>perday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center pt-4">
+
+                                    <button class="button-default w-100">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <h3>Other vehicles</h3>
+
+                <div class="my-card-borderless">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4 text-center ">
+                            <img class="card-image w-100" src="car.jpg
+
+                            " alt="Avatar">
+                        </div>
+                        <div class="col-4 pl-3 pt-4">
+                            <h4><b>Mercedes-Benz E200/220
+                                    or similar</b></h4>
+                            <p>Sedan | PDAR</p>
+                            <p>This package includes</p>
+                            <ul class="description-list-style">
+                                <li> <i class="glyphicon glyphicon-chevron-right description-list-icon"></i>unlimited
+                                    free kilometers
+                                    incl.
+                                </li>
+                                <li><i class="glyphicon glyphicon-chevron-right description-list-icon"></i>Sat nav incl
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 info-parent ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="row info-box pt-2  ">
+                                        <div class="col-6">
+
+
+                                            <h2 class="mb-0 info-box-amount-left">$36
+
+                                                <i class="glyphicon glyphicon-chevron-right info-box-glyph"></i>
+                                            </h2>
+
+                                            <p>perday</p>
+
+                                        </div>
+                                        <div class="col-6 info-box-amount-right">
+                                            <h2 class="mb-0 ">$136</h2>
+
+                                            <p>perday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center pt-4">
+
+                                    <button class="button-default w-100">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="my-card-borderless">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4 text-center ">
+                            <img class="card-image w-100" src="car.jpg
+
+                            " alt="Avatar">
+                        </div>
+                        <div class="col-4 pl-3 pt-4">
+                            <h4><b>Mercedes-Benz E200/220
+                                    or similar</b></h4>
+                            <p>Sedan | PDAR</p>
+                            <p>This package includes</p>
+                            <ul class="description-list-style">
+                                <li> <i class="glyphicon glyphicon-chevron-right description-list-icon"></i>unlimited
+                                    free kilometers
+                                    incl.
+                                </li>
+                                <li><i class="glyphicon glyphicon-chevron-right description-list-icon"></i>Sat nav incl
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 info-parent ">
+                            <div class="row">
+                                <div class="col-12 ">
+                                    <div class="row info-box pt-2  ">
+                                        <div class="col-6">
+
+
+                                            <h2 class="mb-0 info-box-amount-left">$36
+
+                                                <i class="glyphicon glyphicon-chevron-right info-box-glyph"></i>
+                                            </h2>
+
+                                            <p>perday</p>
+
+                                        </div>
+                                        <div class="col-6 info-box-amount-right">
+                                            <h2 class="mb-0 ">$136</h2>
+
+                                            <p>perday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center pt-4">
+
+                                    <button class="button-default w-100">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
